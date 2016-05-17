@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/popwoindow_bg"
+    android:gravity="bottom"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tv_title"
+        style="@style/new_request_btn"
+        android:layout_height="45.0dip"
+        android:layout_marginBottom="2.0dip"
+        android:layout_marginLeft="15.0dip"
+        android:layout_marginRight="15.0dip"
+        android:layout_marginTop="3.0dip"
+        android:background="@null"
+        android:gravity="center"
+        android:shadowColor="#ff000000"
+        android:shadowDx="1.2"
+        android:shadowDy="1.2"
+        android:shadowRadius="1.0"
+        android:singleLine="false"
+        android:textColor="#ffffffff"
+        android:textSize="16.0sp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="45.0dip"
+        android:layout_marginBottom="4.0dip"
+        android:layout_marginLeft="15.0dip"
+        android:layout_marginRight="15.0dip"
+        android:layout_marginTop="6.0dip"
+        android:background="@drawable/btn_special_text"
+        android:gravity="center"
+        android:textColor="#ffffffff"
+        android:textSize="16.0sp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tv_sure"
+        android:layout_width="fill_parent"
+        android:layout_height="45.0dip"
+        android:layout_marginBottom="12.0dip"
+        android:layout_marginLeft="15.0dip"
+        android:layout_marginRight="15.0dip"
+        android:layout_marginTop="15.0dip"
+        android:background="@drawable/popwindow_btn_bg"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:textSize="16.0sp" />
+
+    <TextView
+        android:id="@+id/tv_cancel"
+        android:layout_width="fill_parent"
+        android:layout_height="45.0dip"
+        android:layout_marginBottom="12.0dip"
+        android:layout_marginLeft="15.0dip"
+        android:layout_marginRight="15.0dip"
+        android:layout_marginTop="15.0dip"
+        android:background="@drawable/popwindow_btn_bg"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:textSize="16.0sp" />
+
+</LinearLayout>

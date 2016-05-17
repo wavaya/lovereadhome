@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="110dp"
+        android:layout_height="125dp">
+
+        <ImageView
+            android:id="@+id/item_grida_image"
+            android:layout_width="92dp"
+            android:layout_height="125dp"
+            android:layout_marginBottom="@dimen/new_split"
+            android:layout_marginTop="@dimen/new_split"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:scaleType="fitXY" />
+
+
+        <Button
+            android:id="@+id/item_grida_bt"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/bt_dynamic_del"
+            android:focusable="false" />
+    </RelativeLayout>
+
+</RelativeLayout>

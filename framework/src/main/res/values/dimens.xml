@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="font_title_18">18.0sp</dimen>
+    <dimen name="font_title_16">16.0sp</dimen>
+    <dimen name="font_title_15">15.0sp</dimen>
+    <dimen name="font_title_14">14.0sp</dimen>
+    <dimen name="font_content">14.0sp</dimen>
+    <dimen name="font_content_assist">12.0sp</dimen>
+    <dimen name="font_little">10.0sp</dimen>
+    <dimen name="font_badgeview">11.0sp</dimen>
+
+    <dimen name="font_24px">14sp</dimen>
+    <dimen name="font_28px">16.67sp</dimen>
+    <dimen name="font_30px">18sp</dimen>
+    <dimen name="font_32px">19.33sp</dimen>
+    <dimen name="font_34px">20.67sp</dimen>
+    <dimen name="font_36px">22sp</dimen>
+    <dimen name="font_42px">26sp</dimen>
+
+    <color name="kv_caption_color">#ff383838</color>
+    <color name="kv_value_color">#999999</color>
+    <dimen name="font_title_4">14.0sp</dimen>
+    <dimen name="tab_Height">40dp</dimen>
+    <dimen name="actionBarSize">48dp</dimen>
+    <dimen name="action_title_size">24sp</dimen>
+    <dimen name="detail_backdrop_height">256dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+
+
+</resources>

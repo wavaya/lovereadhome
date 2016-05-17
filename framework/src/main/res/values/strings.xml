@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">XCore</string>
+    <string name="tip_double_click_exit">再按一次返回键退出</string>
+    <string name="skip">跳过</string>
+    <string name="done">完成</string>
+    <string name="scan_info">扫描二维码</string>
+    <string name="xcapture">扫描二维码</string>
+</resources>

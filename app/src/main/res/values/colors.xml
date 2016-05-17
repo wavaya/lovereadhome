@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="day_colorPrimary">#08A4FE</color>
+    <color name="day_colorPrimaryDark">#08A4FE</color>
+    <color name="day_colorAccent">#ff99cc00</color>
+
+    <color name="night_colorPrimary">#042c44</color>
+    <color name="night_colorPrimaryDark">#042c44</color>
+    <color name="night_colorAccent">#ff99cc00</color>
+
+    <color name="popwoindow_bg">#ff595959</color>
+    <color name="light_grey">#ffbebebe</color>
+</resources>

@@ -1,0 +1,193 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_horizontal_margin">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/loginHeightNew"
+        android:layout_marginTop="@dimen/new_split"
+        android:background="?android:attr/windowBackground">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/mine_left_new"
+            android:text="@string/account"
+            android:textColor="?attr/textColor"
+            android:textSize="@dimen/font_32px" />
+
+        <EditText
+            android:id="@+id/edt_account"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:background="@null"
+            android:gravity="center"
+            android:hint="@string/txaccount"
+            android:textColor="?android:attr/editTextColor"
+            android:textColorHint="?android:attr/textColorHint"
+            android:textCursorDrawable="@drawable/color_cursor"
+            android:textSize="@dimen/font_30px" />
+    </RelativeLayout>
+
+
+    <View style="@style/h_line" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/loginHeightNew"
+        android:layout_marginTop="@dimen/new_split"
+        android:background="?android:attr/windowBackground">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/mine_left_new"
+            android:text="@string/xm"
+            android:textColor="?attr/textColor"
+            android:textSize="@dimen/font_32px" />
+
+        <EditText
+            android:id="@+id/edt_xm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:background="@null"
+            android:gravity="center"
+            android:hint="@string/txxm"
+            android:textColor="?android:attr/editTextColor"
+            android:textColorHint="?android:attr/textColorHint"
+            android:textCursorDrawable="@drawable/color_cursor"
+            android:textSize="@dimen/font_30px" />
+    </RelativeLayout>
+
+
+    <View style="@style/h_line" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/loginHeightNew"
+        android:layout_marginTop="@dimen/new_split"
+        android:background="?android:attr/windowBackground">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/mine_left_new"
+            android:text="@string/password"
+            android:textColor="?attr/textColor"
+            android:textSize="@dimen/font_32px" />
+
+        <EditText
+            android:id="@+id/edt_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:background="@null"
+            android:gravity="center"
+            android:inputType="textPassword"
+            android:hint="@string/srpassword"
+            android:textColor="?android:attr/editTextColor"
+            android:textColorHint="?android:attr/textColorHint"
+            android:textCursorDrawable="@drawable/color_cursor"
+            android:textSize="@dimen/font_30px" />
+    </RelativeLayout>
+
+    <View style="@style/h_line" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/loginHeightNew"
+        android:layout_marginTop="@dimen/new_split"
+        android:background="?android:attr/windowBackground">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/mine_left_new"
+            android:text="@string/password2"
+            android:textColor="?attr/textColor"
+            android:textSize="@dimen/font_32px" />
+
+        <EditText
+            android:id="@+id/edt_password2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:background="@null"
+            android:gravity="center"
+            android:hint="@string/srpassword"
+            android:inputType="textPassword"
+            android:textColor="?android:attr/editTextColor"
+            android:textColorHint="?android:attr/textColorHint"
+            android:textCursorDrawable="@drawable/color_cursor"
+            android:textSize="@dimen/font_30px" />
+    </RelativeLayout>
+
+    <View style="@style/h_line" />
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/loginHeightNew"
+        android:layout_marginTop="@dimen/new_split"
+        android:background="?android:attr/windowBackground">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/mine_left_new"
+            android:text="@string/email"
+            android:textColor="?attr/textColor"
+            android:textSize="@dimen/font_32px" />
+
+        <EditText
+            android:id="@+id/edt_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:background="@null"
+            android:gravity="center"
+            android:hint="@string/txemail"
+            android:textColor="?android:attr/editTextColor"
+            android:textColorHint="?android:attr/textColorHint"
+            android:textCursorDrawable="@drawable/color_cursor"
+            android:textSize="@dimen/font_30px" />
+    </RelativeLayout>
+
+    <View style="@style/h_line" />
+
+
+    <Button
+        android:id="@+id/reg_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/button_height"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/loginbtn"
+        android:text="@string/sure"
+        android:textColor="?attr/titleFontColor"
+        android:textSize="16sp" />
+
+
+</LinearLayout>
+

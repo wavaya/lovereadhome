@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="list_divider_color">#f2f2f2</color>
+    <color name="text_light">#AEAEAE</color>
+    <color name="background">#fafafa</color>
+
+    <color name="font_color">#ff929ca0</color>
+
+    <!--setting_item_view-->
+    <dimen name="setting_item_view_icon_marginleft">15.0dip</dimen>
+    <dimen name="setting_item_view_icon_margintop">10.0dip</dimen>
+    <dimen name="setting_item_view_icon_left_name_marginleft">10.0dip</dimen>
+    <dimen name="setting_item_view_icon_left_name_marginright">10.0dip</dimen>
+    <dimen name="setting_item_view_name_margintop">10.0dip</dimen>
+    <dimen name="setting_item_height">47.0dip</dimen>
+    <dimen name="setting_item_view_icon_width">24.0dip</dimen>
+    <dimen name="setting_item_view_name_fontsize">15.0sp</dimen>
+    <color name="setting_item_content_color">#999999</color>
+    <dimen name="setting_name_width">100dp</dimen>
+    <!--setting_item_view-->
+
+
+
+    <color name="pager_title_background_top_start">#1A4D6B</color>
+    <color name="pager_title_background_top_end">#1A5373</color>
+    <color name="pager_title_background_bottom">#155A7F</color>
+    <color name="pager_title_background_end">#22688F</color>
+    <color name="pager_title_background_start">#1F5D82</color>
+    <color name="pager_title_text">#E0E6EA</color>
+    <color name="pager_title_selected_text">#FFFFFF</color>
+    <color name="pager_footer">#FFFFFF</color>
+    <color name="text_link">#4183C4</color>
+
+
+
+    <array name="welcome_screen_colors">
+        <item>@color/background</item>
+        <item>@color/colorPrimaryDark</item>
+        <item>@color/colorAccent</item>
+    </array>
+
+
+    <color name="tabOver">@color/colorPrimary</color>
+    <color name="tabNor">#999999</color>
+</resources>

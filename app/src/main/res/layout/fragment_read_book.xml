@@ -1,0 +1,88 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <View style="@style/h_line" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/new_split"
+        android:layout_marginLeft="@dimen/new_split"
+        android:layout_marginRight="@dimen/new_split"
+        android:layout_marginTop="@dimen/new_split"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/btn_mine"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/button_height"
+            android:layout_weight="1"
+            android:background="@drawable/loginbtn"
+            android:text="@string/addlibrary"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/default_size_new" />
+
+        <Button
+            android:id="@+id/btn_others"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/button_height"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"
+            android:background="@drawable/loginbtn"
+            android:text="@string/jdts"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/default_size_new" />
+
+    </LinearLayout>
+    <View style="@style/h_line" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/new_split"
+        android:layout_marginLeft="@dimen/new_split"
+        android:layout_marginRight="@dimen/new_split"
+        android:layout_marginTop="@dimen/new_split"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <GridView
+            android:id="@+id/gridViewbook"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="?android:attr/windowBackground"
+            android:numColumns="3">
+
+        </GridView>
+
+        <TextView android:id="@+id/textview_datanull"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/dp_20"
+            android:layout_marginRight="@dimen/dp_20"
+            android:layout_marginTop="@dimen/new_split"
+            android:text="@string/tjtssm"
+
+            android:visibility="gone"
+            />
+
+        <View style="@style/h_line" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_add"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_height"
+        android:layout_marginBottom="@dimen/dp_20"
+        android:layout_marginLeft="@dimen/dp_20"
+        android:layout_marginRight="@dimen/dp_20"
+        android:layout_marginTop="@dimen/dp_20"
+        android:background="@drawable/loginbtn"
+        android:text="@string/readthisbook"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/font_36px" />
+</LinearLayout>

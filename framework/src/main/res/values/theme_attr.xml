@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="textColor" format="reference" />
+    <attr name="infoTextColor" format="reference" />
+    <attr name="lineColor" format="reference" />
+    <attr name="titleFontColor" format="reference" />
+    <attr name="layout_item_bg" format="reference"/>
+    <attr name="windows_bg" format="reference"/>
+</resources>

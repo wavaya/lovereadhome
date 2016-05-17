@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView_mine"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?android:attr/windowBackground">
+
+
+    <!--头开始-->
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="?android:attr/windowBackground"
+        android:orientation="vertical">
+        <View style="@style/h_line" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.5"
+            android:background="?attr/colorPrimaryDark"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/head"
+                android:layout_width="@dimen/head_w_h"
+                android:layout_height="@dimen/head_w_h"
+                android:layout_gravity="center"
+                android:layout_marginBottom="@dimen/head_top"
+                android:layout_marginTop="@dimen/head_top"
+                android:src="@mipmap/read"
+                app:civ_border_color="?attr/colorAccent"
+                app:civ_border_overlay="true"
+                app:civ_border_width="2dp" />
+
+
+        </LinearLayout>
+
+        <!--头部结束-->
+
+        <!--姓名-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/loginHeightNew"
+            android:layout_marginTop="@dimen/new_split"
+            android:background="?android:attr/windowBackground">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/mine_left_new"
+                android:text="@string/xm"
+                android:textColor="?attr/textColor"
+                android:textSize="@dimen/font_32px" />
+
+            <EditText
+                android:id="@+id/edt_xm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerInParent="true"
+                android:layout_centerVertical="true"
+                android:background="@null"
+                android:gravity="center"
+                android:hint="@string/txxm"
+                android:textColor="?android:attr/editTextColor"
+                android:textColorHint="?android:attr/textColorHint"
+                android:textCursorDrawable="@drawable/color_cursor"
+                android:textSize="@dimen/font_30px" />
+        </RelativeLayout>
+
+        <View style="@style/h_line" />
+        <!--姓名结束-->
+
+
+        <!--姓名-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/loginHeightNew"
+            android:layout_marginTop="@dimen/new_split"
+            android:background="?android:attr/windowBackground">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/mine_left_new"
+                android:text="@string/nl"
+                android:textColor="?attr/textColor"
+                android:textSize="@dimen/font_32px" />
+
+            <EditText
+                android:id="@+id/edt_age"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerInParent="true"
+                android:layout_centerVertical="true"
+                android:background="@null"
+                android:gravity="center"
+                android:hint="@string/txage"
+                android:inputType="number"
+                android:textColor="?android:attr/editTextColor"
+                android:textColorHint="?android:attr/textColorHint"
+                android:textCursorDrawable="@drawable/color_cursor"
+                android:textSize="@dimen/font_30px" />
+        </RelativeLayout>
+
+        <View style="@style/h_line" />
+        <!--edt_age结束-->
+
+
+        <!--姓名-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/loginHeightNew"
+            android:layout_marginTop="@dimen/new_split"
+            android:background="?android:attr/windowBackground">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/mine_left_new"
+                android:text="@string/sj"
+                android:textColor="?attr/textColor"
+                android:textSize="@dimen/font_32px" />
+
+            <EditText
+                android:id="@+id/edt_sj"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerInParent="true"
+                android:layout_centerVertical="true"
+                android:background="@null"
+                android:gravity="center"
+                android:hint="@string/txsj"
+                android:inputType="phone"
+                android:textColor="?android:attr/editTextColor"
+                android:textColorHint="?android:attr/textColorHint"
+                android:textCursorDrawable="@drawable/color_cursor"
+                android:textSize="@dimen/font_30px" />
+        </RelativeLayout>
+
+        <View style="@style/h_line" />
+        <!--edt_jg结束-->
+
+
+        <!--姓名-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/loginHeightNew"
+            android:layout_marginTop="@dimen/new_split"
+            android:background="?android:attr/windowBackground">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/mine_left_new"
+                android:text="@string/email"
+                android:textColor="?attr/textColor"
+                android:textSize="@dimen/font_32px" />
+
+            <EditText
+                android:id="@+id/edt_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerInParent="true"
+                android:layout_centerVertical="true"
+                android:background="@null"
+                android:gravity="center"
+                android:hint="@string/txemail"
+
+                android:textColor="?android:attr/editTextColor"
+                android:textColorHint="?android:attr/textColorHint"
+                android:textCursorDrawable="@drawable/color_cursor"
+                android:textSize="@dimen/font_30px" />
+        </RelativeLayout>
+
+        <View style="@style/h_line" />
+        <!--edt_jg结束-->
+
+
+        <!--姓名-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/loginHeightNew"
+            android:layout_marginTop="@dimen/new_split"
+            android:background="?android:attr/windowBackground">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/mine_left_new"
+                android:text="@string/qq"
+                android:textColor="?attr/textColor"
+                android:textSize="@dimen/font_32px" />
+
+            <EditText
+                android:id="@+id/edt_qq"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerInParent="true"
+                android:layout_centerVertical="true"
+                android:background="@null"
+                android:gravity="center"
+                android:hint="@string/txqq"
+                android:inputType="number"
+                android:textColor="?android:attr/editTextColor"
+                android:textColorHint="?android:attr/textColorHint"
+                android:textCursorDrawable="@drawable/color_cursor"
+                android:textSize="@dimen/font_30px" />
+        </RelativeLayout>
+
+        <View style="@style/h_line" />
+        <!--edt_xl结束-->
+
+
+        <!--姓名-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/loginHeightNew"
+            android:layout_marginTop="@dimen/new_split"
+            android:background="?android:attr/windowBackground">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/mine_left_new"
+                android:text="@string/dz"
+                android:textColor="?attr/textColor"
+                android:textSize="@dimen/font_32px" />
+
+            <EditText
+                android:id="@+id/edt_dz"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerInParent="true"
+                android:layout_centerVertical="true"
+                android:background="@null"
+                android:gravity="center"
+                android:hint="@string/txdz"
+                android:textColor="?android:attr/editTextColor"
+                android:textColorHint="?android:attr/textColorHint"
+                android:textCursorDrawable="@drawable/color_cursor"
+                android:textSize="@dimen/font_30px" />
+        </RelativeLayout>
+
+        <View style="@style/h_line" />
+        <!--edt_xl结束-->
+    </LinearLayout>
+</ScrollView>

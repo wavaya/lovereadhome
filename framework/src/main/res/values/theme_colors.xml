@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!--白天-->
+    <color name="day_colorPrimary">@color/colorPrimary</color>
+    <color name="day_colorPrimaryDark">@color/colorPrimaryDark</color>
+    <color name="day_colorAccent">@color/colorAccent</color>
+    <color name="day_background">#fafafa</color>
+    <color name="day_edit_color">#333333</color>
+    <color name="day_edit_hit_color">#999999</color>
+    <color name="day_textColor">#333333</color>
+    <color name="day_infoTextColor">#999999</color>
+    <color name="day_line_color">#e7e7e7</color>
+    <color name="day_bg">#f2f2f2</color>
+    <color name="day_layout_bg_normal">#f6f6f6</color>
+    <color name="day_layout_bg_pressed">#dfdfdf</color>
+
+    <color name="day_windows_bg">#fafafa</color>
+
+    <!--晚上-->
+    <color name="night_colorPrimary">@color/colorPrimary</color>
+    <color name="night_colorPrimaryDark">@color/colorPrimaryDark</color>
+    <color name="night_colorAccent">@color/colorAccent</color>
+    <color name="night_background">#1f1f1f</color>
+    <color name="night_edit_color">#666666</color>
+    <color name="night_edit_hit_color">#999999</color>
+    <color name="night_textColor">#b3b3b3</color>
+    <color name="night_infoTextColor">#666666</color>
+    <color name="night_line_color">#282828</color>
+    <color name="night_titleFontColor">#999999</color>
+    <color name="night_bg">#666666</color>
+    <color name="night_layout_bg_normal">#222222</color>
+    <color name="night_layout_bg_pressed">#0d0e11</color>
+    <color name="night_windows_bg">#1f1f1f</color>
+
+    <color name="font_title_color">#252525</color>
+    <color name="font_content_color">#999999</color>
+
+</resources>

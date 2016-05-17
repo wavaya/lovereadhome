@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">爱家阅</string>
+    <string-array name="welcome_texts">
+        <item>读书是一种习惯</item>
+        <item>做好记录更优雅</item>
+        <item>在家阅读，多做记录，云排序</item>
+
+    </string-array>
+
+    <string-array name="welcome_titles">
+        <item>习惯</item>
+        <item>记录</item>
+        <item>爱在家阅</item>
+
+    </string-array>
+
+
+    <string name="log_out">登出</string>
+    <string name="fx">分享</string>
+    <string name="grzl">个人资料</string>
+    <string name="about">关于</string>
+    <string name="modify_password">修改密码</string>
+    <string name="sz">设置</string>
+    <string name="yjmx">夜间模式</string>
+    <string name="exit">退出</string>
+    <string name="userinfo">个人中心</string>
+
+    <string name="anonymous">匿名</string>
+    <string name="rdts">阅读</string>
+    <string name="rdls">阅读历史</string>
+    <string name="tyyhxy">同意用户服务协议</string>
+    <string name="not_register">还没有帐号？</string>
+    <string name="register">我要注册</string>
+    <string name="accountNoNull">帐号不能为空!</string>
+    <string name="pswNoNull">密码不能为空！</string>
+
+    <string name="errormsg">加载数据失败</string>
+    <string name="loadMsg">数据加载中...</string>
+    <string name="nobookInfo">没有数据</string>
+    <string name="loginerror">用户名密码不正确！</string>
+    <string name="input_username">请输入用户名</string>
+    <string name="sure">注册</string>
+    <string name="xm">用户名</string>
+    <string name="txxm">填写姓名</string>
+    <string name="password">密码</string>
+    <string name="srpassword">字母、数字组合</string>
+    <string name="password2">确认密码</string>
+    <string name="account">帐号</string>
+    <string name="txaccount">填写帐号</string>
+    <string name="email">Email</string>
+    <string name="txemail">填写Email</string>
+    <string name="register2">注册</string>
+    <string name="xmNoNull">姓名不能为空！</string>
+    <string name="pswNoEquals">两次密码不一样！</string>
+    <string name="emailNoNull">Email不能为空！</string>
+    <string name="registerSuccess">注册成功！可以进行登录！</string>
+    <string name="registerFails">注册失败！</string>
+    <string name="bookExisted">该书已存在！可以进行阅读！</string>
+    <string name="readbook">读书</string>
+    <string name="allbooks">所有图书</string>
+    <string name="addlibrary">添加我的图书</string>
+    <string name="jdts">添加外借图书</string>
+    <string name="readthisbook">阅读所选图书</string>
+    <string name="tjtssm">添加我的图书时，如果所有图书中没有该书，会自动添加进来；添加外借图书时,不添加进所有图书。所有添加图书操作都只是暂时加入，只有单击阅读所选图书才会生成阅读日志！</string>
+
+    <string name="netError">网络错误！操作未成功！</string>
+
+    <string name="scan_info">扫描条形码</string>
+    <string name="nl">年龄</string>
+    <string name="txage">填写年龄</string>
+    <string name="sj">手机</string>
+    <string name="txsj">填写手机号</string>
+    <string name="qq">QQ</string>
+    <string name="txqq">填写QQ</string>
+    <string name="dz">地址</string>
+    <string name="txdz">填写地址</string>
+    <string name="modify">修改</string>
+    <string name="version">版本</string>
+    <string name="about_me">关于作者</string>
+    <string name="about_me_description">我是一个热爱开发的程序员，也是6岁小孩的爸爸。我的宝宝非常喜欢读书，一直想做一个App记录下每天读的书，终于下定决心做出来。过段时间准备开源分享出来；如果您有好的注意或建议，请您及时和我联系。</string>
+    <string name="my_email">wayhua@126.com</string>
+</resources>

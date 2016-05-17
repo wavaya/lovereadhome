@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.XFramework" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <item name="colorPrimary">@color/day_colorPrimary</item>
+        <item name="colorPrimaryDark">@color/day_colorPrimaryDark</item>
+        <item name="colorAccent">@color/day_colorAccent</item>
+
+        <item name="actionBarPopupTheme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+        <item name="actionBarStyle">@style/Widget.Styled.ActionBar</item>
+        <item name="android:actionBarStyle">@style/Widget.Styled.ActionBar</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowBackground">@color/day_background</item>
+        <item name="background">@color/day_bg</item>
+        <item name="colorControlNormal">@android:color/white</item>
+        <item name="actionBarWidgetTheme">@style/WidgetStyle</item>
+        <item name="textColor">@color/day_textColor</item>
+        <item name="infoTextColor">@color/day_infoTextColor</item>
+        <item name="lineColor">@color/day_line_color</item>
+        <item name="titleFontColor">@android:color/white</item>
+        <item name="android:editTextColor">@color/day_edit_color</item>
+        <item name="android:textColorHint">@color/day_edit_hit_color</item>
+        <item name="android:actionMenuTextColor">@color/font_content_color</item>
+
+        <item name="windows_bg">@color/day_windows_bg</item>
+        <item name="layout_item_bg">@drawable/day_list_item_background</item>
+        <!-- MaterialDrawer specific values -->
+        <item name="material_drawer_background">@color/material_drawer_background</item>
+        <item name="material_drawer_primary_text">@color/material_drawer_primary_text</item>
+        <item name="material_drawer_primary_icon">@color/material_drawer_primary_icon</item>
+        <item name="material_drawer_secondary_text">@color/material_drawer_secondary_text</item>
+        <item name="material_drawer_hint_text">@color/material_drawer_hint_text</item>
+        <item name="material_drawer_hint_icon">@color/material_drawer_hint_icon</item>
+        <item name="material_drawer_divider">@color/material_drawer_divider</item>
+        <item name="material_drawer_selected">@color/material_drawer_selected</item>
+        <item name="material_drawer_selected_text">@color/material_drawer_selected_text</item>
+        <item name="material_drawer_header_selection_text">
+            @color/material_drawer_header_selection_text
+        </item>
+    </style>
+
+    <style name="Theme.XFramework_Night" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <item name="colorPrimary">@color/night_colorPrimary</item>
+        <item name="colorPrimaryDark">@color/night_colorPrimaryDark</item>
+        <item name="colorAccent">@color/night_colorAccent</item>
+
+        <item name="actionBarPopupTheme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+
+        <item name="actionBarStyle">@style/Widget.Styled.ActionBar</item>
+        <item name="android:actionBarStyle">@style/Widget.Styled.ActionBar</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowBackground">@color/night_background</item>
+        <item name="background">@color/night_bg</item>
+        <item name="colorControlNormal">@android:color/white</item>
+        <item name="actionBarWidgetTheme">@style/WidgetStyle</item>
+
+        <item name="android:editTextColor">@color/night_edit_color</item>
+        <item name="android:textColorHint">@color/night_edit_hit_color</item>
+        <item name="textColor">@color/night_textColor</item>
+        <item name="infoTextColor">@color/night_infoTextColor</item>
+        <item name="lineColor">@color/night_line_color</item>
+        <item name="titleFontColor">@color/night_titleFontColor</item>
+        <item name="android:actionMenuTextColor">@color/font_content_color</item>
+        <item name="windows_bg">@color/night_windows_bg</item>
+        <item name="layout_item_bg">@drawable/night_list_item_background</item>
+        <!-- MaterialDrawer specific values -->
+        <item name="material_drawer_background">@color/material_drawer_dark_background</item>
+        <item name="material_drawer_primary_text">@color/material_drawer_dark_primary_text</item>
+        <item name="material_drawer_primary_icon">@color/material_drawer_dark_primary_icon</item>
+        <item name="material_drawer_secondary_text">@color/material_drawer_dark_secondary_text
+        </item>
+        <item name="material_drawer_hint_text">@color/material_drawer_dark_hint_text</item>
+        <item name="material_drawer_hint_icon">@color/material_drawer_dark_hint_icon</item>
+        <item name="material_drawer_divider">@color/material_drawer_dark_divider</item>
+        <item name="material_drawer_selected">@color/material_drawer_dark_selected</item>
+        <item name="material_drawer_selected_text">@color/material_drawer_dark_selected_text</item>
+        <item name="material_drawer_header_selection_text">
+            @color/material_drawer_header_selection_text
+        </item>
+    </style>
+
+    <style name="WidgetStyle" parent="style/ThemeOverlay.AppCompat.Light">
+        <item name="colorControlNormal">@android:color/white</item>
+    </style>
+
+    <style name="TabLayoutTextAppearance" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="TabLayoutTextAppearanceInverse" parent="TextAppearance.AppCompat.Widget.ActionBar.Title.Inverse">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@android:color/holo_red_light</item>
+    </style>
+
+    <style name="Widget.Styled.ActionBar" parent="Widget.AppCompat.ActionBar.Solid">
+        <item name="indeterminateProgressStyle">@style/IndeterminateProgress</item>
+        <item name="android:indeterminateProgressStyle">@style/IndeterminateProgress</item>
+        <item name="colorControlNormal">@android:color/white</item>
+
+    </style>
+
+    <style name="IndeterminateProgress" parent="@android:style/Widget.ProgressBar">
+        <item name="android:indeterminateDrawable">@drawable/actionbar_spinner</item>
+        <item name="android:minWidth">16dp</item>
+    </style>
+
+
+</resources>

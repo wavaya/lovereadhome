@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/iv_left"
+        android:layout_width="@dimen/setting_item_view_icon_width"
+        android:layout_height="@dimen/setting_item_view_icon_width"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/setting_item_view_icon_marginleft"
+        android:src="@mipmap/icon_edit_work_sign" />
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="@dimen/setting_name_width"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:paddingLeft="@dimen/setting_item_view_icon_left_name_marginleft"
+        android:singleLine="true"
+        android:textColor="#ff383838"
+        android:textSize="@dimen/font_title_16" />
+
+    <TextView
+        android:id="@+id/tv_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_weight="1"
+        android:gravity="right"
+        android:paddingLeft="@dimen/setting_item_view_icon_left_name_marginleft"
+        android:layout_marginRight="@dimen/setting_item_view_icon_left_name_marginleft"
+        android:textColor="@color/setting_item_content_color"
+        android:textSize="@dimen/font_content"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/iv_right"
+        android:layout_width="15.0dip"
+        android:layout_height="15.0dip"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="15.0dip"
+        android:layout_toRightOf="@id/tv_content"
+        android:src="@mipmap/icon_triangle_small" />
+</LinearLayout>

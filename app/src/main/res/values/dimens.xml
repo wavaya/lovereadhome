@@ -1,0 +1,19 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="new_split">5dp</dimen>
+    <dimen name="mine_left_new">20dp</dimen>
+    <dimen name="default_size_new">14sp</dimen>
+    <dimen name="loginHeightNew">55dp</dimen>
+    <dimen name="account_top">20dp</dimen>
+    <dimen name="lrmargin2New">30dp</dimen>
+    <dimen name="bookInfo_split">5dp</dimen>
+    <dimen name="button_height">45dp</dimen>
+    <dimen name="dp_20">20dp</dimen>
+    <dimen name="user_top">0dp</dimen>
+    <dimen name="head_w_h">100dp</dimen>
+    <dimen name="head_top">10dp</dimen>
+
+    <dimen name="app_bar_height">180dp</dimen>
+</resources>

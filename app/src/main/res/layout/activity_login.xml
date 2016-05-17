@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?android:attr/windowBackground"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/loginHeightNew"
+        android:layout_marginTop="@dimen/account_top"
+        android:background="@android:color/white"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/user_accout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="?android:attr/windowBackground"
+            android:hint="请输入用户名"
+
+            android:paddingLeft="@dimen/lrmargin2New"
+            android:textColor="?attr/textColor"
+            android:textColorHint="?android:attr/textColorHint"
+            android:textSize="@dimen/default_size_new" />
+
+
+    </LinearLayout>
+
+
+    <View style="@style/h_line" />
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/loginHeightNew"
+        android:layout_gravity="right"
+        android:background="@android:color/white"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/edt_password"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="?android:attr/windowBackground"
+            android:hint="请输入密码"
+            android:inputType="textPassword"
+
+            android:paddingLeft="@dimen/lrmargin2New"
+            android:textColor="?attr/textColor"
+            android:textColorHint="?android:attr/textColorHint"
+            android:textSize="@dimen/default_size_new" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/loginHeightNew"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/checkBox_ys"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/lrmargin2New"
+            android:layout_marginTop="20dp"
+            android:checked="true"
+            android:text="@string/tyyhxy"
+            android:textColor="?attr/colorPrimary"
+            android:textSize="@dimen/default_size_new" />
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_height"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="55dp"
+        android:background="@drawable/loginbtn"
+        android:text="立刻登录"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/font_36px" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/not_register"
+                android:textColor="?attr/textColor"
+                android:textSize="@dimen/font_title_16" />
+
+            <TextView
+                android:id="@+id/register_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:text="@string/register"
+                android:textColor="?attr/colorPrimary"
+                android:textSize="@dimen/font_title_16" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>

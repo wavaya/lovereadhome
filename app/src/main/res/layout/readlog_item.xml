@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/layout_item_bg"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/new_split"
+        android:layout_marginLeft="@dimen/new_split"
+        android:layout_marginTop="@dimen/new_split">
+
+        <TextView
+            android:id="@+id/textView_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="今天"
+            android:textColor="?attr/infoTextColor"
+            android:textSize="@dimen/font_24px" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp">
+
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="92dp"
+                android:layout_height="125dp"
+                android:layout_marginBottom="@dimen/new_split"
+                android:layout_marginTop="@dimen/new_split"
+                android:scaleType="fitXY" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="@dimen/new_split"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_book_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/bookInfo_split"
+                android:layout_marginTop="@dimen/bookInfo_split"
+                android:text="软件架构师12项修炼"
+                android:textColor="?attr/textColor"
+                android:textSize="@dimen/font_30px"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/book_author"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/bookInfo_split"
+                android:layout_marginTop="@dimen/bookInfo_split"
+                android:ellipsize="end"
+                android:gravity="center_vertical"
+                android:singleLine="true"
+                android:text="(美) Dave"
+                android:textColor="?attr/infoTextColor"
+                android:textSize="@dimen/font_24px" />
+
+            <TextView
+                android:id="@+id/book_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/bookInfo_split"
+                android:layout_marginTop="@dimen/bookInfo_split"
+                android:ellipsize="end"
+                android:gravity="center_vertical"
+                android:maxLines="3"
+                android:singleLine="false"
+                android:text="简介"
+                android:textColor="?attr/infoTextColor"
+                android:textSize="@dimen/font_24px" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View style="@style/h_line" />
+</LinearLayout>
