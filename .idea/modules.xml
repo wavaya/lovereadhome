@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/LoveReadHome.iml" filepath="$PROJECT_DIR$/LoveReadHome.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/doubanapi/doubanapi.iml" filepath="$PROJECT_DIR$/doubanapi/doubanapi.iml" />
       <module fileurl="file://$PROJECT_DIR$/framework/framework.iml" filepath="$PROJECT_DIR$/framework/framework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lovereadhome.iml" filepath="$PROJECT_DIR$/lovereadhome.iml" />
     </modules>
   </component>
 </project>
